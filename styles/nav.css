@@ -1,0 +1,39 @@
+/*------------------------
+    Navigation Styles start 
+ ------------------------*/
+.nav-menu {
+    width: 100%;
+    height: 94px;
+    background-color: #562EFF;
+}
+
+.nav-menu,
+.nav-content {
+    justify-content: space-around;
+}
+
+.nav-content img {
+    width: 40px;
+    height: 51px;
+    margin: 24px 0px 19px 0px;
+}
+
+.icon-text {
+    color: #FFFFFF;
+    padding-left: 16px;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.profile img {
+    width: 51px;
+    height: 51px;
+}
+
+.nav-link,
+.profile img {
+    margin: 33px 36px 37px 0px;
+}

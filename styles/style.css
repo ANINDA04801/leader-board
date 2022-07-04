@@ -1,0 +1,12 @@
+/*------------------- 
+    Common styles 
+---------------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
