@@ -61,12 +61,12 @@ span {
 /*---------------------
      Top blogs styles 
      -------------------*/
-.blog-section {}
 
 .top-blogs {
     background-color: #ffffff;
-    width: 912px;
+    width: 852px;
     height: 369px;
+    padding: 30px;
 }
 
 .blogs {
@@ -81,11 +81,15 @@ span {
     height: 117px;
 }
 
+.blog-detail {
+    padding: 6px 16px;
+}
+
 .blog-title {
     font-size: 20px;
     width: 164px;
     height: 68px;
-    margin-bottom: 6px;
+    margin-bottom: 0;
 }
 
 .blog-author {
