@@ -37,3 +37,16 @@
 .profile img {
     margin: 33px 36px 37px 0px;
 }
+
+/*-------------------
+     Media queries
+ ------------------ */
+@media only screen and (max-width:688px) {
+    .nav-menu {
+        width: 210%;
+    }
+
+    .profile {
+        margin-left: 20%;
+    }
+}

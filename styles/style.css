@@ -169,3 +169,42 @@ span {
 .rating {
     padding-right: 21px;
 }
+
+/*-----------------------
+        Media queries
+    --------------------- */
+/* Mobiles */
+@media only screen and (max-width:688px) {
+    h2 {
+        margin-left: 2%;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    .top-players,
+    .top-blogs {
+        width: 550px;
+        height: 360px;
+        margin-left: 105%;
+
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+    }
+
+    .top-blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .player-name {
+        width: 150px;
+    }
+
+}
