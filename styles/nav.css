@@ -43,10 +43,31 @@
  ------------------ */
 @media only screen and (max-width:688px) {
     .nav-menu {
-        width: 210%;
+        width: 100%;
+    }
+
+    .nav-content {
+        width: 13%;
+        margin-left: 75px;
+        margin-right: 35px;
+    }
+
+    .nav-content img {
+        width: 100%;
+        height: 45px;
+    }
+
+    .icon-text {
+        padding-left: 8px;
     }
 
     .profile {
-        margin-left: 20%;
+        margin-left: 24px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        margin-right: 20px;
+        margin-top: 38px;
     }
 }
